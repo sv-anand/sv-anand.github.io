@@ -19,12 +19,12 @@
             <div id="heading">
                S.V. Anand
             </div>
-            <p id="bio">
-               Dr. S.V. Anand is an accomplished painter. While practising medicine, he refined his technique in Spain (University of Madrid), France (Fontainebleau) and Italy. He has exhibited his work throughout Ontario and has been featured in various publications including the Medical Post  and the Oakville Beaver. He is a member of the Burlington Art Gallery and paints primarily Canadian landscapes in acrylic and oil. 
-                  <br> <br>
-                  <b>Contact: </b><span>a</span><span>n</span><span>a</span><span>n</span><span>d</span><span>s</span><span>v</span><span>@</span><span>g</span><span>m</span><span>a</span><span>i</span><span>l</span><span>.</span><span>c</span><span>o</span><span>m</span>
-
+            <div class="bio" style='padding-right: 0px;margin-top:-5px;padding-left:0px;margin-bottom:10px;'> <b>Contact: </b><span>a</span><span>n</span><span>a</span><span>n</span><span>d</span><span>s</span><span>v</span><span>@</span><span>g</span><span>m</span><span>a</span><span>i</span><span>l</span><span>.</span><span>c</span><span>o</span><span>m</span> </div>
+            <p class="bio" style='margin-top: 5px;'>
+               Dr. S.V. Anand is an accomplished painter. While practising medicine, he refined his technique in Spain (University of Madrid), France (Fontainebleau) and Italy. He has exhibited his work throughout Ontario and has been featured in various publications including the Medical Post  and the Oakville Beaver. He is a member of the Burlington Art Gallery and paints primarily Canadian landscapes in acrylic and oil.
+               <button class="btn text-button" id="myBtn" style="margin-top: 10px;"><span style="padding-bottom: 2pt; padding-top: 2pt;">Biography</span></button> 
             </p>
+
          </div>
          <div>
       </header>
@@ -114,9 +114,29 @@
       </section>
       </div>
    </body>
-   
+<div id="myModal" class="modal">
+
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h3>Biography</h3>
+    <p id="biotext">
+
+    Sundaram Vivek Anand started to draw and sketch at a very young age. His kindergarten teacher at the Montessori School noticed his talent and encouraged his parents to support his artistic talent in his future education. His abilities became more apparent during medical school where he excelled in the study of human anatomy. During his post graduate studies in England, he illustrated medical text books on a part-time basis for one of his professors. Dr. Anand was able to answer examination questions by illustrating the human body through his drawings.
+   <br><br>
+ 
+
+   After arriving in Canada, his surgery practice was complemented by his passion to learn and capture the Canadian landscape. He attended many workshops in Spain (University of Madrid), France (Fontainebleau), and elsewhere in Europe along with international artists. His artwork has been exhibited in Nova Scotia and Ontario. He is a member of the Burlington Fine Arts Association and has taken part in many private showings in Oakville, Burlington and Hamilton.
+
+
+
+    </p>
+  </div>
+
+
+
+</div>
    <div id="myImageModal" class="imageModal">
       <span class="imageClose">&times;</span>
-      <img class="imageModal-content" id="img01">
+      <img class="imageModal-content" id="img01" style="padding-bottom:10%;max-height: 100%;object-fit: contain;">
    </div>
 </html>
